@@ -1,0 +1,17 @@
+{
+    "isbn": "A0002",
+    "title": "Hansel and Gretel",
+    "publishYear": 1812,
+    "price": 29.99,
+    "genre": "Fiction",
+    "authors": [
+        {
+            "name": "Jacob Grimm",
+            "birthday": "1785-01-04"
+        },
+        {
+            "name": "Wilhelm Grimm",
+            "birthday": "1785-02-24"
+        }
+    ]
+}
