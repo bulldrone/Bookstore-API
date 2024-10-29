@@ -20,6 +20,8 @@
   - **Hibernate**
   - **H2 In-Memory Database**
 
+
+
 ### 2. Design Considerations
 
 - **Spring Web Starter** was selected to utilize the REST Controller framework, enabling testing with frontend applications or messaging tools like Postman. This choice was made since the view layer is not part of the project requirements.
@@ -32,7 +34,7 @@
 
 - **H2** was chosen as the in-memory database for development and testing purposes. Its lightweight nature and easy setup allow for rapid prototyping and testing without the overhead of managing a separate database server.
 
-### 
+
 
 ### 3. **Environment Setup**
 
@@ -51,6 +53,8 @@
      5. Sure firesure test reports will be generate in /target/sure-fire-report to view unit test results for BookController Rest API during the mvn test lifecycle
      
      6. You can run mvn-clean-package.bat in /runscripts to test and generate surefire reports without running previous phases in mvn lifecycle 
+
+
 
 ### 4. Data Structure
 
@@ -76,7 +80,6 @@ The **Book** object is represented in JSON format as follows:
   
   - **name**: The name of the author, represented as a string (e.g., "Jacob Grimm").
   - **birthday**: The author's birth date, represented as a string in ISO 8601 format (e.g., "1785-01-04").
-  - 
 
 The **Author** object is represented in JSON format as follows:
 
@@ -87,6 +90,8 @@ The **Author** object is represented in JSON format as follows:
 #### Description:
 
 - The **authors** attribute allows for the inclusion of multiple authors for a single book, enabling richer data representation and accommodating works that may have more than one contributor.
+
+
 
 ### 5. Database Schemas
 
@@ -123,6 +128,8 @@ These tables work together to support a database structure that models books and
   - `BOOK_ID` (BIGINT): Foreign key, non-nullable, referencing the `ID` field in the `BOOKS` table.
 - **Description**: This is a join table for establishing a many-to-many relationship between books and authors. Each entry links one author to one book, allowing a book to have multiple authors and an author to contribute to multiple books.
 
+
+
 ### 6. Code Structure
 
 ![filestucture.png](screenshots/filestucture.png)
@@ -154,8 +161,6 @@ These tables work together to support a database structure that models books and
 #### Service package
 
 - Contains BookService which is used in BookController class to handle incoming requests payload and business logic
-
-
 
 
 
