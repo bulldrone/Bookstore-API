@@ -40,17 +40,17 @@
 
 - **Steps**:
   
-  1. - **Install JDK 17**.
+     1. **Install JDK 17**.
      
-     - **Configure environment variables** for Java.
+     2. **Configure environment variables** for Java.
      
-     - **Clone the repository** for the Bookstore Project from the GitHub repository (the current one you are viewing) to your local directory.
+     3. **Clone the repository** for the Bookstore Project from the GitHub repository (the current one you are viewing) to your local directory.
      
-     - Go to /runscripts dir and run mvn-clean-package.bat to validate,, compile, test, and package the project into a JAR file (`bookstore-Ver.1.jar`), which will be located in the `/target` directory in the root folder.
+     4. Go to /runscripts dir and run mvn-clean-package.bat to validate,, compile, test, and package the project into a JAR file (`bookstore-Ver.1.jar`), which will be located in the `/target` directory in the root folder.
      
-     - Sure firesure test reports will be generate in /target/sure-fire-report to view unit test results for BookController Rest API during the mvn test lifecycle
+     5. Sure firesure test reports will be generate in /target/sure-fire-report to view unit test results for BookController Rest API during the mvn test lifecycle
      
-     - You can run mvn-clean-package.bat in /runscripts to test and generate surefire reports without running previous phases in mvn lifecycle 
+     6. You can run mvn-clean-package.bat in /runscripts to test and generate surefire reports without running previous phases in mvn lifecycle 
 
 ### 4. Data Structure
 
