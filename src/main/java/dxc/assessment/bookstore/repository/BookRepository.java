@@ -1,6 +1,5 @@
 package dxc.assessment.bookstore.repository;
 
-import dxc.assessment.bookstore.model.Author;
 import dxc.assessment.bookstore.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

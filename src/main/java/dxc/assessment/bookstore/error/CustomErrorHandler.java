@@ -1,7 +1,5 @@
 package dxc.assessment.bookstore.error;
 
-import dxc.assessment.bookstore.error.CustomError;
-import dxc.assessment.bookstore.error.CustomExceptions;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
