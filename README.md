@@ -92,7 +92,7 @@ The **Author** object is represented in JSON format as follows:
 
 ### AUTHORS Table
 
-![AuthorTable.png](screenshots\AuthorTable.png)
+![AuthorTable.png](screenshots/AuthorTable.png)
 
 - **Fields**:
   - `ID` (BIGINT): Primary key, non-nullable.
@@ -102,7 +102,7 @@ The **Author** object is represented in JSON format as follows:
 
 ### BOOK Table
 
-![BookTable.png](screenshots\BookTable.png)
+![BookTable.png](screenshots/BookTable.png)
 
 **Fields**:
 
@@ -116,7 +116,7 @@ These tables work together to support a database structure that models books and
 
 ### BOOK_AUTHOR Table
 
-![BookAuthorTable.png](screenshots\BookAuthorTable.png)
+![BookAuthorTable.png](screenshots/BookAuthorTable.png)
 
 - **Fields**:
   - `AUTHOR_ID` (BIGINT): Foreign key, non-nullable, referencing the `ID` field in the `AUTHORS` table.
@@ -125,7 +125,7 @@ These tables work together to support a database structure that models books and
 
 ### 6. Code Structure
 
-![filestucture.png](C:\Users\glenn\IdeaProjects\bookstore\screenshots\filestucture.png)
+![filestucture.png](screenshots/filestucture.png)
 
 #### Controller package
 
