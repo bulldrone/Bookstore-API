@@ -21,9 +21,6 @@ public class BookController {
     @Autowired
     private BookService bookService;
 
-    @Autowired
-    private BookRepository bookRepository;
-
     // Add
     @PostMapping
     public ResponseEntity<Book> addBook(@RequestBody Book book) {
